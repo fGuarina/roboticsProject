@@ -1,0 +1,13 @@
+<launch>
+  <node name="Left_IR" pkg="primo_pkg_ros" type="left_IR_pub.py" />
+  <node name="Right_IR" pkg="primo_pkg_ros" type="right_IR_pub.py" />
+  <node name="Left_sonar" pkg="primo_pkg_ros" type="left_sonar_pub.py" />
+  <node name="Right_sonar" pkg="primo_pkg_ros" type="right_sonar_pub.py" />
+  <node name="Avoid_Obstacles" pkg="primo_pkg_ros" type="avoid_obstacles_sub.py" />
+  
+  <!-- <node name="Main" pkg="primo_pkg_ros" type="main.py" /> -->
+  <!-- <node name="Detection" pkg="primo_pkg_ros" type="pub_object-detection.cpp" /> -->
+  <!-- <node name="Compass" pkg="primo_pkg_ros" type="compass.py"  /> -->
+  <!-- <node name="Search" pkg="primo_pkg_ros" type="search.py" /> -->
+  <!-- <node name="Post_Detection" pkg="primo_pkg_ros" type="sub_object-detection.py" /> -->
+</launch>
